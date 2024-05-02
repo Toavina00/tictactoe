@@ -57,7 +57,6 @@ fn play(board: &mut Signal<GameBoard>, props: &CellProps) {
 
     board.write().player = player;
 
-    //return;
 
     let (mut alpha, mut beta) = (MIN, MAX);
     let mut pos: (i32, i32) = (0, 0);
