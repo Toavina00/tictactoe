@@ -20,13 +20,6 @@ fn App() -> Element {
     }
 }
 
-enum GameState {
-    MENU,
-    GAME,
-    WIN,
-    DRAW,
-}
-
 #[derive(PartialEq, Props, Clone)]
 struct CellProps {
     i: usize,

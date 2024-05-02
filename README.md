@@ -1,3 +1,7 @@
+# About me
+
+Minimax IA implementation for a game of Tic-tac-Toe written in rust. The program uses Dioxus to build the interface.
+
 # Development
 
 1. Install npm: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
